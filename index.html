@@ -1,164 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Tea-House</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" />
 </head>
 <body class="manrope-normal">
 
-  <div class="flex flex-col md:flex-row items-center justify-between max-w-[1250px] px-5 mx-auto py-10">
-    <!-- left -->
-    <div class="max-w-lg text-center md:text-left">
-      <h1 class="text-4xl sm:text-6xl md:text-[80px] font-bold leading-tight">
-        It's a good <br>
-        tea time at the Tea <br>
-        House
-      </h1>
-      <p class="text-base sm:text-lg md:text-[18px] my-6">
-        Tea and Botanical Solutions supplier give optimum <br class="hidden md:block"/>
-        Satisfaction to Your Taste Buds.
-      </p>
-      <button class="w-40 md:w-[200px] h-14 md:h-[64px] bg-gradient-to-r from-[#ff0000] to-[#ff8938] text-lg md:text-xl text-white rounded-lg">
-        Explore More <i class="fa-solid fa-arrow-right ml-2 rotate-320"></i>
-      </button>
-    </div>
+<!-- HERO -->
+<div class="flex flex-col md:flex-row items-center justify-between max-w-[1250px] px-5 mx-auto py-10 gap-8">
+  <div class="max-w-lg text-center md:text-left">
+    <h1 class="text-4xl sm:text-6xl md:text-[80px] font-bold leading-tight">
+      It's a good <br> tea time at the Tea <br> House
+    </h1>
+    <p class="text-base sm:text-lg md:text-[18px] my-6">
+      Tea and Botanical Solutions supplier give optimum <br class="hidden md:block"/>
+      Satisfaction to Your Taste Buds.
+    </p>
+    <button class="w-40 md:w-[200px] h-14 md:h-[64px] bg-gradient-to-r from-[#ff0000] to-[#ff8938] text-lg md:text-xl text-white rounded-lg">
+      Explore More <i class="fa-solid fa-arrow-right ml-2 rotate-320"></i>
+    </button>
+  </div>
 
-    <!-- right -->
-    <div class="relative mt-10 md:mt-0">
-      <img src="images/banner.png" alt="" class="mx-auto md:mx-0 md:w-full">
-      <div class="absolute -bottom-10 left-1/2 -translate-x-1/2 md:left-[50px] md:translate-x-0 flex items-center w-52 sm:w-[255px] h-24 rounded-lg shadow-lg bg-white p-4">
-        <span class="text-3xl mr-4 text-orange-400">
-          <i class="fa-solid fa-star"></i>
-        </span>
-        <div>
-          <p class="text-3xl font-bold">5.00</p>
-          <p>Trust Pilot Ratings</p>
-        </div>
+  <div class="relative">
+    <img src="images/banner.png" alt="" class="mx-auto md:w-full">
+    <div class="absolute -bottom-10 left-1/2 -translate-x-1/2 md:left-[50px] md:translate-x-0 flex items-center w-[70%] md:w-[255px] h-24 rounded-lg shadow-lg bg-white p-4">
+      <span class="text-3xl mr-4 text-orange-400"><i class="fa-solid fa-star"></i></span>
+      <div>
+        <p class="text-3xl font-bold">5.00</p>
+        <p>Trust Pilot Ratings</p>
       </div>
     </div>
   </div>
-<section class="max-w-[1250px] px-5 mx-auto py-10 mt-100px max-lg text-center md:text-left ">
-    <h1 class="text-center text-4xl sm:text-6xl md:text-[40px] font-bold">Our Featured Products</h1>
-    <p class="text-center text-1xl sm:4xl md:text-[18px] my-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo quae laboriosam, non mollitia accusantium ullam aspernatur explicabo cum rerum ipsa provident iusto rem. Numquam harum tenetur aliquam consequuntur id beatae.</p>
-    <div class="feature_parent min-h-[200px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 ">
-    <div class="feature_card  bg-gradient-to-b from-[#f4f4f4] to-[#f4f4f400]  min-h-[300px]  text-center p-6 rounded-lg shadow-lg">
-        
-        <img src="images/tea-1.png" alt="" class="mx-auto block">
-        <h1 class="text-2xl font-bold">Milk Tea</h1>
-        <p>Cremer Could be replaced by Fresh Milk</p>
+</div>
+
+<!-- FEATURE PRODUCTS -->
+<section class="max-w-[1250px] px-5 mx-auto py-10">
+  <h1 class="text-center text-3xl sm:text-4xl md:text-[40px] font-bold">Our Featured Products</h1>
+  <p class="text-center text-base md:text-[18px] my-6">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quae laboriosam non mollitia accusantium ullam aspernatur.
+  </p>
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+    <div class="bg-gradient-to-b from-[#f4f4f4] to-transparent min-h-[260px] text-center p-6 rounded-lg shadow-lg flex flex-col justify-between">
+      <img src="images/tea-1.png" alt="" class="mx-auto"/>
+      <h1 class="text-xl font-bold mt-4">Milk Tea</h1>
+      <p class="mt-2">Cremer Could be replaced by Fresh Milk</p>
     </div>
-    <div class="feature_card bg-gradient-to-b from-[#f4f4f4] to-[#f4f4f400]  min-h-[300px]  text-center p-6 rounded-lg shadow-lg">
-        
-        <img src="images/tea-2.png" alt="" class="mx-auto block">
-        <h1 class="text-2xl font-bold">Balck Tea</h1>
-        <p>Cremer Could be replaced by Fresh Milk</p>
+    <div class="bg-gradient-to-b from-[#f4f4f4] to-transparent min-h-[260px] text-center p-6 rounded-lg shadow-lg flex flex-col justify-between">
+      <img src="images/tea-2.png" alt="" class="mx-auto"/>
+      <h1 class="text-xl font-bold mt-4">Black Tea</h1>
+      <p class="mt-2">Cremer Could be replaced by Fresh Milk</p>
     </div>
-    <div class="feature_card  bg-gradient-to-b from-[#f4f4f4] to-[#f4f4f400]  min-h-[300px]  text-center p-6 rounded-lg shadow-lg">
-        
-        <img src="images/tea-3.png" alt="" class="mx-auto block">
-        <h1 class="text-2xl font-bold">Lemon Tea</h1>
-        <p>Cremer Could be replaced by Fresh Milk</p>
+    <div class="bg-gradient-to-b from-[#f4f4f4] to-transparent min-h-[260px] text-center p-6 rounded-lg shadow-lg flex flex-col justify-between">
+      <img src="images/tea-3.png" alt="" class="mx-auto"/>
+      <h1 class="text-xl font-bold mt-4">Lemon Tea</h1>
+      <p class="mt-2">Cremer Could be replaced by Fresh Milk</p>
     </div>
-    <div class="feature_card  bg-gradient-to-b from-[#f4f4f4] to-[#f4f4f400]  min-h-[300px]  text-center p-6 rounded-lg shadow-lg">
-        
-        <img src="images/tea-4.png" alt="" class="mx-auto block">
-        <h1 class="text-2xl font-bold">Green Tea</h1>
-        <p>Cremer Could be replaced by Fresh Milk</p>
+    <div class="bg-gradient-to-b from-[#f4f4f4] to-transparent min-h-[260px] text-center p-6 rounded-lg shadow-lg flex flex-col justify-between">
+      <img src="images/tea-4.png" alt="" class="mx-auto"/>
+      <h1 class="text-xl font-bold mt-4">Green Tea</h1>
+      <p class="mt-2">Cremer Could be replaced by Fresh Milk</p>
     </div>
-    </div>
+  </div>
 </section>
 
-<div class="parent_div flex flex-col md:flex-row max-w-[1250px] px-5 mx-auto py-10 gap-6">
-
-  <div class="left_div w-full md:w-1/2 grid grid-cols-2 grid-rows-3 gap-4">
-    <div class="bg-gradient-to-r from-[#ff0000] to-[#ff8938] opacity-10 rounded-lg shadow-md h-28 md:h-full"></div>
-    <div class="row-span-2 bg-[#e6a6231a] flex justify-center items-center rounded-lg shadow-md">
+<!-- FRESHLY PRESENTED -->
+<div class="flex flex-col md:flex-row max-w-[1250px] px-5 mx-auto py-10 gap-8">
+  <div class="w-full md:w-1/2 grid grid-cols-2 grid-rows-3 gap-4">
+    <div class="bg-gradient-to-r from-[#ff0000] to-[#ff8938] opacity-10 rounded-lg h-24 md:h-full"></div>
+    <div class="row-span-2 bg-[#e6a6231a] flex justify-center items-center rounded-lg">
       <img src="images/fresh-1.png" alt="">
     </div>
-    <div class="row-span-2 bg-[#5776391a] flex justify-center items-center rounded-lg shadow-md">
+    <div class="row-span-2 bg-[#5776391a] flex justify-center items-center rounded-lg">
       <img src="images/fresh-2.png" alt="">
     </div>
-    <div class="bg-gradient-to-r from-[#d9d9d9] to-[#ffffff00] rounded-lg shadow-md h-28 md:h-full"></div>
+    <div class="bg-gradient-to-r from-[#d9d9d9] to-transparent rounded-lg h-24 md:h-full"></div>
   </div>
-
-  
-  <div class="right_div w-full md:w-1/2 mt-0 md:mt-8">
+  <div class="w-full md:w-1/2">
     <h1 class="text-3xl md:text-[36px] font-bold leading-snug">Great Tea, Freshly <br> Presented</h1>
-    <p class="my-6 text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis voluptatibus fuga obcaecati. Doloribus in, commodi sunt velit possimus quo atque exercitationem repellat laborum perferendis architecto hic! Deleniti quis unde dolorem.</p>
-
+    <p class="my-6 text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis voluptatibus fuga obcaecati.</p>
     <h2 class="text-xl md:text-2xl font-bold">Unique Taste</h2>
     <p class="my-4 text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, mollitia!</p>
-
     <h2 class="text-xl md:text-2xl font-bold">Premium Quality</h2>
     <p class="mt-4 text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, quibusdam?</p>
   </div>
 </div>
-<div class="parent_div flex flex-col md:flex-row max-w-[1250px] px-5 mx-auto py-10 gap-6  h-[1360px] md:h-[600px] bg-gradient-to-r from-[#ff8938] to-[#ff0000]">
-  <div class="left_parent md:1/2  flex justify-center items-center">
+
+<!-- CLIENTS -->
+<div class="flex flex-col md:flex-row max-w-[1250px] px-5 mx-auto py-10 gap-8 bg-gradient-to-r from-[#ff8938] to-[#ff0000] rounded-lg">
+  <div class="w-full md:w-1/2 flex justify-center items-center text-center md:text-left">
     <div>
-      <h1 class="text-4xl font-extrabold text-white">Meet Our Super <br> Clients</h1>
-    <p class="text-[16px] mt-9 mb-4 text-white">There are many variations of passages of Lorem Ipsum <br>available, but the majority have suffered alteration in some <br> form, by injected humour, or randomised words which don't <br> look even slightly believable. </p>
-    <button class="text-[#ff8938] w-[139px] h-[56px] bg-white rounded-lg font-bold">Show All</button>
-
+      <h1 class="text-3xl md:text-4xl font-extrabold text-white">Meet Our Super <br> Clients</h1>
+      <p class="text-base md:text-[16px] mt-6 mb-4 text-white">There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration.</p>
+      <button class="text-[#ff8938] w-[139px] h-[56px] bg-white rounded-lg font-bold mx-auto md:mx-0">Show All</button>
     </div>
   </div>
-  <div class="right_parent md:h-1/2  ">
-    <div class="right_section h-[210px] w-[70vw] md:w-[70%] border-2 border-yellow-500 bg-white relative top-[47%] p-5 left-[5%] rounded-lg z-10">
-      <p class="text-[16px] text-gray-600 mt-12">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
-      <h1 class="text-[16px] font-bold mt-5">Ilham Yuda</h1>
-      <p class="text-[16px] text-gray-400">Businessman</p>
-      <div class="absolute -top-[30px] -left-[22px] border-2 rounded-full p-1 bg-white">
-        <img src="images/client.png" alt="">
-        <img src="images/circles.png" alt=""class="absolute -right-80 -bottom-40">
-      </div>
-      
-
+  <div class="w-full md:w-1/2 space-y-8 relative">
+    <div class="bg-white p-5 rounded-lg shadow-lg w-[90%] md:w-[70%] mx-auto relative z-10">
+      <div class="absolute -top-6 -left-6  rounded-full bg-white p-1 border"><img src="images/client.png" alt="" class="w-12 h-12"></div>
+      <p class="text-gray-600 mt-8">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+      <h1 class="font-bold mt-5">Ilham Yuda</h1>
+      <p class="text-gray-400">Businessman</p>
     </div>
-     <div class="right_section h-[210px] w-[70vw] md:w-[70%] border-2 border-yellow-500 bg-white relative -top-[74%] p-5 left-[15%] rounded-lg opacity-15">
-      <p class="text-[16px] text-gray-600 mt-12">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
-      <h1 class="text-[16px] font-bold mt-5">Ilham Yuda</h1>
-      <p class="text-[16px] text-gray-400">Businessman</p>
-      <div class="absolute -top-[30px] -left-[22px] border-2 rounded-full p-1 bg-white">
-        <img src="images/client.png" alt="">
-      </div>
-      
-      
-
+    <div class="hidden md:block bg-white p-5 rounded-lg shadow-lg w-[70%] opacity-20 mx-auto -mt-12">
+      <p class="mt-8">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
     </div>
-    <div class="right_section h-[210px] w-[70vw] md:w-[70%] border-2 border-yellow-500 bg-white relative -top-[40%] p-5 left-[18%] rounded-lg opacity-15">
-      <p class="text-[16px] tex0t-gray-600 mt-12">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
-      <h1 class="text-[16px] font-bold mt-5">Ilham Yuda</h1>
-      <p class="text-[16px] text-gray-400">Businessman</p>
-      <div class="absolute -top-[10px] -left-[22px] border-2 rounded-full p-1 bg-white">
-        <img src="images/client.png" alt="">
-      </div>
-      
-
+    <div class="hidden md:block bg-white p-5 rounded-lg shadow-lg w-[70%] opacity-20 mx-auto -mt-12">
+      <p class="mt-8">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
     </div>
-    
-
-  </div>
-
-
-</div class="parent_description  flex flex-col md:flex-row max-w-[1250px] px-5 mx-auto py-10 gap-6 h-[1200px]">
-<div class="description mt-8">
-  <h1 class="text-[45px] font-extrabold text-center justify-center">News & Events</h1>
-  <p class="text-[16px] from-neutral-600 text-center justify-center mt-2">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,<br> by injected humour, or randomised words which don't look even slightly believable. </p>
-</div>
-<div>
-<div class="bottom_parent mt-5 max-w-[1250px] mx-auto px-5 ">
-  <div class="imges rounded-lg shadow-lg p-8 bg-slate-100 w-[32%] h-full">
-    <img src="images/news-1.png" alt="">
-    <p class="text-[16px] text-gray-500">Feb 05, 2027</p>
-    <h1 class="text-[20px] font-extrabold">Collecting 8 points for <br> discount</h1>
-    <p class="text-[16px] text-gray-600">There are many variations of passages of <br> Lorem Ipsum available.</p>
-    <p class="text-[16px] font-bold">Learn More</p>
   </div>
 </div>
+
+<!-- NEWS & EVENTS -->
+<div class="max-w-[1250px] px-5 mx-auto py-10">
+  <div class="text-center mb-8">
+    <h1 class="text-3xl md:text-[45px] font-extrabold">News & Events</h1>
+    <p class="mt-2 text-[16px] text-neutral-600">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+  </div>
+
+  <div class="flex flex-col md:flex-row gap-8">
+    <div class="rounded-lg shadow-lg p-8 bg-slate-100 w-full md:w-1/3">
+      <img src="images/news-1.png" alt="" class="mb-4">
+      <p class="text-[16px] text-gray-500">Feb 05, 2027</p>
+      <h1 class="text-[20px] font-extrabold">Collecting 8 points for <br> discount</h1>
+      <p class="text-[16px] text-gray-600">There are many variations of passages of Lorem Ipsum available.</p>
+      <p class="font-bold">Learn More</p>
+    </div>
+
+    <div class="rounded-lg shadow-lg p-8 bg-slate-100 w-full md:w-1/3">
+      <img src="images/news-2.png" alt="" class="mb-4">
+      <p class="text-[16px] text-gray-500">Feb 05, 2027</p>
+      <h1 class="text-[20px] font-extrabold">Collecting 8 points for <br> discount</h1>
+      <p class="text-[16px] text-gray-600">There are many variations of passages of Lorem Ipsum available.</p>
+      <p class="font-bold">Learn More</p>
+    </div>
+
+    <div class="rounded-lg shadow-lg p-8 bg-slate-100 w-full md:w-1/3">
+      <img src="images/news-3.png" alt="" class="mb-4">
+      <p class="text-[16px] text-gray-500">Feb 05, 2027</p>
+      <h1 class="text-[20px] font-extrabold">Collecting 8 points for <br> discount</h1>
+      <p class="text-[16px] text-gray-600">There are many variations of passages of Lorem Ipsum available.</p>
+      <p class="font-bold">Learn More</p>
+    </div>
+  </div>
 </div>
 
 </body>
 </html>
+
